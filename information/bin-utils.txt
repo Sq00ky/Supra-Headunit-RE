@@ -1,0 +1,29 @@
+hu-jacinto:/dev/shmem> cd /bin/
+hu-jacinto:/bin> ls
+AudioProcess                     flashctl                         pidin
+Logistic                         flashit                          pipe
+LogisticHUJacintoStage           fs-cifs                          random
+NBTPathology                     fs-http                          rm
+NbtEvoJacintoDiagHUHighApp       grep                             route
+SwdlMaster                       hwidx.sh                         sh
+SwdlMaster.hbtc                  if-bolo                          slay
+SwdlSlave                        if-test                          sleep
+SwdlSlave.hbtc                   if_up                            sloginfo
+TraceDSPApp_Root                 ifconfig                         sloginterceptor
+apixconfig                       inetd                            sshd
+autoarpd                         io-ipc                           start_swdl.sh
+bootinfo                         io-pkt-v4                        starterEmergencyRecovery.sh
+cat                              ipc-version-check                starterPackageCtrl
+config_eth_patches.sh            ipl-version-check                switchconf_bcm8950x
+copy_pidin.sh                    ksh                              switchconf_j5
+cp                               ktb_dumper                       switchconf_ksz8864
+dev-ioamp-router                 login                            switchconf_sja1105
+dev-spi-dra6xx                   ls                               sysctl
+dev-tuner-amfm                   mkdir                            sysetadjread
+dev_signalpath_configurator      mount                            telnetd
+devc-pty                         multicored                       uname
+devc-seromap                     mv                               v850commander
+devf-generic                     on                               v850commander.sh
+dhcp.client                      out32                            waitfor
+dumper                           pci                              watchdog5-jacinto
+false                            pfctl

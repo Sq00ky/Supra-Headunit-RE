@@ -1,0 +1,3 @@
+/dev/fs0p4 on /var type flash
+/dev/fs0p3 on /mnt/wavedata type flash
+/dev/fs0p1 on /mnt/application type flash

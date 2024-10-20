@@ -72,5 +72,20 @@ UBjlshupt5emCPsp3Cp2zPn9zowYpvzqnnv7J6s1CzGJQME96o2sBq4rc+tSYKXI
 -----END RSA PRIVATE KEY-----
 ```
 
+```
+-----BEGIN DSA PRIVATE KEY-----
+MIIBuwIBAAKBgQDpJJMKrXIuAwb2rDTYzrWaWcRk8YNs3FionsYKjYVU1ssoQn59
+wcPSt8EyQBI7+Z+uAsPA1M6YjZjyT8Yqps/8h4bzrUTM5ag3tukXjdq3zz/3p80r
+CHaEsE/DS1F/KG922m3WY2Dpn+3/5XdQrs8hw6OBlrfx7RUOBcyJiaPT6wIVAJNS
+rZ+ZAaTnVlZ+BhkUwfu/zuUTAoGBALgXU3JDEW1+ZlbnPtKH5/RVUza/Sl2mn1Sz
+NXq86dzwuwEBSx9tqfPALPlyNJEfxJYUOd+8/skxMOh7Qm5FdGBUNfu6cHiT/Ty6
+aSDJ/in3qq8/5yGe2it+YgCwMf5squr+17SxC3fEldNL7sHPElVDFwkN3W3bwZtP
+/imyzwAuAoGAI3gCp7avWAdaOcGijOzu85w/WK3Yx1BZGkoGwYR6LPRlUJYbVnRm
+nMOYbSDLkvvQXwWlgU6Hx3W+TLfkqqpfodGAmtz3Ots1d8KqPudzADxhz5ku2dJd
+s8draRo4qqaVD8VLgM8tXQMCevHj3NFLrETtxD0G1vJT96KatHEH2jYCFBWvuTB5
+ZX5vWp+Tj/da+KL6OrYv
+-----END DSA PRIVATE KEY-----
+```
+
 ### Ownership
 All rights belong to Toyota (Toyota Motor Corporation) , BMW (Bayerische Motoren Werke AG), and Harman Kardon (Harman International)

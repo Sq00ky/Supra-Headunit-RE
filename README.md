@@ -87,5 +87,8 @@ ZX5vWp+Tj/da+KL6OrYv
 -----END DSA PRIVATE KEY-----
 ```
 
+### Carplay information
+Config files can eb found in /net/hu-omap/fs/sda1/opt/conn/carplay/*
+
 ### Ownership
 All rights belong to Toyota (Toyota Motor Corporation) , BMW (Bayerische Motoren Werke AG), and Harman Kardon (Harman International)

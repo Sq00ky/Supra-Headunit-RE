@@ -1,0 +1,8 @@
+ ND    Node             CPU      Release FreeMem       BootTime
+ 0     hu-omap          2 ARM    6.5.0   2336Mb/4096Mb Dec 31 23:59:59 UTC 1979
+           Processes: 116, Threads: 1253
+           CPU 1: 1093648626 Cortex A15L            1497MHz FPU 
+           CPU 2: 1093648626 Cortex A15L            1497MHz FPU 
+ 1     hu-jacinto       1 ARM    6.5.0   158Mb/256Mb   Dec 31 23:59:59 UTC 1979
+           Processes: 53, Threads: 307
+           CPU 1: 1094697090 Cortex A8               600MHz FPU 

@@ -1,0 +1,1638 @@
+     pid tid name                                                       
+       1   1 /procnto-smp-instr 
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 10 ReplyQ 5 
+       1   2 /procnto-smp-instr 
+       1   3 /procnto-smp-instr 
+       1   6 /procnto-smp-instr 
+       1  15 /procnto-smp-instr 
+       1  16 /procnto-smp-instr 
+       1  18 /procnto-smp-instr 
+       1  19 /procnto-smp-instr 
+       1  20 /procnto-smp-instr 
+       1  21 /procnto-smp-instr 
+       1  22 /procnto-smp-instr 
+       1  23 /procnto-smp-instr 
+       1  24 /procnto-smp-instr 
+       2   1 boot/bin/slogger   
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 1 
+       3   1 t/bin/devc-seromap 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 1 
+       4   1 evb-sdmmc-omap5evm 
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000a: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 0000006a PulseQ 0 SendQ 0 ReceiveQ 6 ReplyQ 0 
+		00000010: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+       4   2 evb-sdmmc-omap5evm 
+       4   3 evb-sdmmc-omap5evm 
+       4   4 evb-sdmmc-omap5evm 
+       4   5 evb-sdmmc-omap5evm 
+       4   6 evb-sdmmc-omap5evm 
+       4   7 evb-sdmmc-omap5evm 
+       4   8 evb-sdmmc-omap5evm 
+       4   9 evb-sdmmc-omap5evm 
+       4  10 evb-sdmmc-omap5evm 
+       4  11 evb-sdmmc-omap5evm 
+       4  18 evb-sdmmc-omap5evm 
+    8197   1 pt/sys/bin/starter 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 2 
+    8197   2 pt/sys/bin/starter 
+    8197   3 pt/sys/bin/starter 
+    8198   1 bin/pci-omap543x   
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+    8198   2 bin/pci-omap543x   
+    8199   1 bin/dev-i2c        
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000003: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000005: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 0 
+    8199   2 bin/dev-i2c        
+    8199   3 bin/dev-i2c        
+    8199   4 bin/dev-i2c        
+    8199   5 bin/dev-i2c        
+    8199   6 bin/dev-i2c        
+    8199   7 bin/dev-i2c        
+    8199   8 bin/dev-i2c        
+    8200   1 /devb-ahci-hbomap5 
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 0000006a PulseQ 0 SendQ 0 ReceiveQ 6 ReplyQ 0 
+		0000000a: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+    8200   2 /devb-ahci-hbomap5 
+    8200   3 /devb-ahci-hbomap5 
+    8200   4 /devb-ahci-hbomap5 
+    8200   5 /devb-ahci-hbomap5 
+    8200   8 /devb-ahci-hbomap5 
+    8200   9 /devb-ahci-hbomap5 
+    8200  10 /devb-ahci-hbomap5 
+    8200  11 /devb-ahci-hbomap5 
+    8200  14 /devb-ahci-hbomap5 
+    8201   1 bin/pipe           
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 4 ReplyQ 1 
+    8201   2 bin/pipe           
+    8201   4 bin/pipe           
+    8201   5 bin/pipe           
+    8201   7 bin/pipe           
+    8202   1 boot/bin/dumper    
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+    8203   1 bin/io-pkt-v6-hc   
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 17 
+		00000018: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000001b: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000001e: flags 000000ba PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 1 
+		00000023: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000002c: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000ef: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000f3: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000f5: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+    8203   2 bin/io-pkt-v6-hc   
+    8203   3 bin/io-pkt-v6-hc   
+    8203   4 bin/io-pkt-v6-hc   
+    8203   5 bin/io-pkt-v6-hc   
+    8203   6 bin/io-pkt-v6-hc   
+    8203   7 bin/io-pkt-v6-hc   
+    8203   8 bin/io-pkt-v6-hc   
+    8203   9 bin/io-pkt-v6-hc   
+    8203  10 bin/io-pkt-v6-hc   
+    8203  11 bin/io-pkt-v6-hc   
+    8203  12 bin/io-pkt-v6-hc   
+    8204   1 /bin/servicebroker 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+    8204   2 /bin/servicebroker 
+    8204   3 /bin/servicebroker 
+    8205   1 bin/tiler          
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 4 ReplyQ 0 
+    8205   2 bin/tiler          
+    8205   3 bin/tiler          
+    8205   4 bin/tiler          
+    8205   5 bin/tiler          
+    8205   6 bin/tiler          
+    8206   1 boot/bin/login     
+   12303   1 bin/OnOffHuOmapApp 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   12303   2 bin/OnOffHuOmapApp 
+   12303   3 bin/OnOffHuOmapApp 
+   12303   4 bin/OnOffHuOmapApp 
+   12303   5 bin/OnOffHuOmapApp 
+   12303   6 bin/OnOffHuOmapApp 
+   12303   7 bin/OnOffHuOmapApp 
+   12303   8 bin/OnOffHuOmapApp 
+   12303   9 bin/OnOffHuOmapApp 
+   12303  10 bin/OnOffHuOmapApp 
+   12303  11 bin/OnOffHuOmapApp 
+   12303  12 bin/OnOffHuOmapApp 
+   12303  13 bin/OnOffHuOmapApp 
+   12303  14 bin/OnOffHuOmapApp 
+   12304   1 /bin/EarlyICam2App 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   12304   2 /bin/EarlyICam2App 
+   12304   3 /bin/EarlyICam2App 
+   12304   4 /bin/EarlyICam2App 
+   12304   5 /bin/EarlyICam2App 
+   12304   6 /bin/EarlyICam2App 
+   12304   7 /bin/EarlyICam2App 
+   12304   9 /bin/EarlyICam2App 
+   12304  10 /bin/EarlyICam2App 
+   12304  11 /bin/EarlyICam2App 
+   12304  12 /bin/EarlyICam2App 
+   12304  13 /bin/EarlyICam2App 
+   12304  14 /bin/EarlyICam2App 
+   12305   1 bin/dev-sysregs2   
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   12306   1 bin/devc-ser8250bs 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   12308   1 bin/syslink        
+		00000001: flags 000000ea PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 1 
+		00000002: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000005: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000b: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   12308   2 bin/syslink        
+   12308   3 bin/syslink        
+   12308   4 bin/syslink        
+   12308   5 bin/syslink        
+   12308   6 bin/syslink        
+   12308   7 bin/syslink        
+   12308   8 bin/syslink        
+   12308   9 bin/syslink        
+   12308  10 bin/syslink        
+   12308  11 bin/syslink        
+   12308  12 bin/syslink        
+   12308  13 bin/syslink        
+   12308  14 bin/syslink        
+   12308  15 bin/syslink        
+   12308  16 bin/syslink        
+   16407   1 bin/screen         
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000b: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000d: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000010: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000013: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000016: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 5 ReplyQ 3 
+   16407   2 bin/screen         
+   16407   3 bin/screen         
+   16407   4 bin/screen         
+   16407   5 bin/screen         
+   16407   6 bin/screen         
+   16407   7 bin/screen         
+   16407   8 bin/screen         
+   16407   9 bin/screen         
+   16407  10 bin/screen         
+   16407  11 bin/screen         
+   16407  12 bin/screen         
+   16407  13 bin/screen         
+   16407  14 bin/screen         
+   16407  15 bin/screen         
+   16407  16 bin/screen         
+   16407  17 bin/screen         
+   16407  18 bin/screen         
+   16407  19 bin/screen         
+   16407  20 bin/screen         
+   16407  21 bin/screen         
+   16407  22 bin/screen         
+   20502   1 bin/io-ipc         
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000003: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000006: flags 00000008 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 4 ReplyQ 1 
+		00000011: flags 00000008 PulseQ 0 SendQ 0 ReceiveQ 5 ReplyQ 0 
+   20502   2 bin/io-ipc         
+   20502   3 bin/io-ipc         
+   20502   4 bin/io-ipc         
+   20502   6 bin/io-ipc         
+   20502   7 bin/io-ipc         
+   20502   8 bin/io-ipc         
+   20502   9 bin/io-ipc         
+   20502  10 bin/io-ipc         
+   20502  12 bin/io-ipc         
+   20502  13 bin/io-ipc         
+   20506   1 bin/dev-navsens    
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 1 
+   20506   2 bin/dev-navsens    
+   20506   3 bin/dev-navsens    
+   20506   4 bin/dev-navsens    
+   20506   6 bin/dev-navsens    
+   20506   7 bin/dev-navsens    
+   20506   8 bin/dev-navsens    
+   28697   1 opt/sys/bin/most   
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 00000001 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000028: flags 00000001 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+   28697   2 opt/sys/bin/most   
+   28697   3 opt/sys/bin/most   
+   28697   4 opt/sys/bin/most   
+   28697   5 opt/sys/bin/most   
+   28697   6 opt/sys/bin/most   
+   28697   7 opt/sys/bin/most   
+   28697   8 opt/sys/bin/most   
+   28697   9 opt/sys/bin/most   
+   28697  10 opt/sys/bin/most   
+   28697  11 opt/sys/bin/most   
+   32795   1 bin/shmemallocator 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 0 
+   32795   2 bin/shmemallocator 
+   32795   3 bin/shmemallocator 
+   32795   4 bin/shmemallocator 
+  106520   1 bin/ziploader      
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 2 ReplyQ 0 
+  106520   2 bin/ziploader      
+  106520   3 bin/ziploader      
+  122909   1 bin/devf-spi       
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 0 
+  122909   2 bin/devf-spi       
+  122909   3 bin/devf-spi       
+  122909   4 bin/devf-spi       
+  127004   1 ys/bin/Persistency 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  127004   2 ys/bin/Persistency 
+  127004   3 ys/bin/Persistency 
+  127004   4 ys/bin/Persistency 
+  127004   5 ys/bin/Persistency 
+  127004   6 ys/bin/Persistency 
+  127004   7 ys/bin/Persistency 
+  127004   8 ys/bin/Persistency 
+  180255   1 bin/autoarpd       
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  188437   1 in/someip_sddaemon 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  196627   1 ayerManagerService 
+		00000003: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  196627   2 ayerManagerService 
+  196627   3 ayerManagerService 
+  196627   4 ayerManagerService 
+  196627   5 ayerManagerService 
+  196627   6 ayerManagerService 
+  196638   1 bin/dev-ethervideo 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000006: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  196638   3 bin/dev-ethervideo 
+  196638   4 bin/dev-ethervideo 
+  196638   5 bin/dev-ethervideo 
+  196640   1 n/dev-videocapture 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  196640   2 n/dev-videocapture 
+  196640   3 n/dev-videocapture 
+  200737   1 bin/watchdog5-omap 
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000008 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 1 
+  200737   2 bin/watchdog5-omap 
+  200737   3 bin/watchdog5-omap 
+  200737   4 bin/watchdog5-omap 
+  200737   5 bin/watchdog5-omap 
+  200737   6 bin/watchdog5-omap 
+  200738   1 t/core/bin/CSI_NBT 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000010: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000012: flags 00000009 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000014: flags 00000009 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000015: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200738   2 t/core/bin/CSI_NBT 
+  200738   3 t/core/bin/CSI_NBT 
+  200738   4 t/core/bin/CSI_NBT 
+  200738   5 t/core/bin/CSI_NBT 
+  200738   6 t/core/bin/CSI_NBT 
+  200738   7 t/core/bin/CSI_NBT 
+  200738   8 t/core/bin/CSI_NBT 
+  200738   9 t/core/bin/CSI_NBT 
+  200738  10 t/core/bin/CSI_NBT 
+  200738  11 t/core/bin/CSI_NBT 
+  200738  12 t/core/bin/CSI_NBT 
+  200738  13 t/core/bin/CSI_NBT 
+  200738  14 t/core/bin/CSI_NBT 
+  200738  15 t/core/bin/CSI_NBT 
+  200738  16 t/core/bin/CSI_NBT 
+  200738  17 t/core/bin/CSI_NBT 
+  200738  18 t/core/bin/CSI_NBT 
+  200738  19 t/core/bin/CSI_NBT 
+  200738  20 t/core/bin/CSI_NBT 
+  200738  21 t/core/bin/CSI_NBT 
+  200738  22 t/core/bin/CSI_NBT 
+  200738  23 t/core/bin/CSI_NBT 
+  200739   1 boot/bin/dumper    
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200740   1 bin/random         
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200740   2 bin/random         
+  200740   3 bin/random         
+  200740   4 bin/random         
+  200741   1 igationPositioning 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000e: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200741   2 igationPositioning 
+  200741   3 igationPositioning 
+  200741   4 igationPositioning 
+  200741   5 igationPositioning 
+  200741   6 igationPositioning 
+  200741   7 igationPositioning 
+  200741   8 igationPositioning 
+  200741   9 igationPositioning 
+  200741  10 igationPositioning 
+  200741  11 igationPositioning 
+  200741  12 igationPositioning 
+  200741  13 igationPositioning 
+  200741  14 igationPositioning 
+  200742   1 ys/bin/srv-hddmgr2 
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000a: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 5 ReplyQ 0 
+		0000000d: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000e: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000f: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000020: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200742   2 ys/bin/srv-hddmgr2 
+  200742   3 ys/bin/srv-hddmgr2 
+  200742   5 ys/bin/srv-hddmgr2 
+  200742   6 ys/bin/srv-hddmgr2 
+  200742   7 ys/bin/srv-hddmgr2 
+  200742   8 ys/bin/srv-hddmgr2 
+  200742   9 ys/bin/srv-hddmgr2 
+  200742  10 ys/bin/srv-hddmgr2 
+  200742  11 ys/bin/srv-hddmgr2 
+  200742  12 ys/bin/srv-hddmgr2 
+  200742  13 ys/bin/srv-hddmgr2 
+  200743   1 t/car/bin/NBTCarHU 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000037: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000044: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200743   2 t/car/bin/NBTCarHU 
+  200743   3 t/car/bin/NBTCarHU 
+  200743   4 t/car/bin/NBTCarHU 
+  200743   5 t/car/bin/NBTCarHU 
+  200743   6 t/car/bin/NBTCarHU 
+  200743   7 t/car/bin/NBTCarHU 
+  200743   8 t/car/bin/NBTCarHU 
+  200743   9 t/car/bin/NBTCarHU 
+  200743  10 t/car/bin/NBTCarHU 
+  200743  11 t/car/bin/NBTCarHU 
+  200743  12 t/car/bin/NBTCarHU 
+  200743  13 t/car/bin/NBTCarHU 
+  200743  14 t/car/bin/NBTCarHU 
+  200743  15 t/car/bin/NBTCarHU 
+  200743  16 t/car/bin/NBTCarHU 
+  200743  17 t/car/bin/NBTCarHU 
+  200743  18 t/car/bin/NBTCarHU 
+  200743  19 t/car/bin/NBTCarHU 
+  200743  20 t/car/bin/NBTCarHU 
+  200743  21 t/car/bin/NBTCarHU 
+  200743  22 t/car/bin/NBTCarHU 
+  200743  23 t/car/bin/NBTCarHU 
+  200743  24 t/car/bin/NBTCarHU 
+  200743  25 t/car/bin/NBTCarHU 
+  200743  26 t/car/bin/NBTCarHU 
+  200743  27 t/car/bin/NBTCarHU 
+  200743  28 t/car/bin/NBTCarHU 
+  200743  29 t/car/bin/NBTCarHU 
+  200744   1 oOmapDiagHUHighApp 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+  200744   2 oOmapDiagHUHighApp 
+  200744   3 oOmapDiagHUHighApp 
+  200744   4 oOmapDiagHUHighApp 
+  200744   5 oOmapDiagHUHighApp 
+  200744   6 oOmapDiagHUHighApp 
+  200744   7 oOmapDiagHUHighApp 
+  200744   8 oOmapDiagHUHighApp 
+  200744   9 oOmapDiagHUHighApp 
+  200744  10 oOmapDiagHUHighApp 
+  200744  11 oOmapDiagHUHighApp 
+  200744  12 oOmapDiagHUHighApp 
+  200745   1 tuner/bin/TunerApp 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  200745   2 tuner/bin/TunerApp 
+  200745   3 tuner/bin/TunerApp 
+  200745   4 tuner/bin/TunerApp 
+  200745   5 tuner/bin/TunerApp 
+  200745   6 tuner/bin/TunerApp 
+  200745   7 tuner/bin/TunerApp 
+  200745   8 tuner/bin/TunerApp 
+  200745   9 tuner/bin/TunerApp 
+  200745  10 tuner/bin/TunerApp 
+  200745  11 tuner/bin/TunerApp 
+  200745  12 tuner/bin/TunerApp 
+  200745  13 tuner/bin/TunerApp 
+  200745  14 tuner/bin/TunerApp 
+  200745  15 tuner/bin/TunerApp 
+  200745  16 tuner/bin/TunerApp 
+  200745  17 tuner/bin/TunerApp 
+  200745  18 tuner/bin/TunerApp 
+  200745  19 tuner/bin/TunerApp 
+  204844   1 bin/io-usb         
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000a: flags 00000008 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000010: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 4 ReplyQ 2 
+  204844   2 bin/io-usb         
+  204844   3 bin/io-usb         
+  204844   4 bin/io-usb         
+  204844   5 bin/io-usb         
+  204844   6 bin/io-usb         
+  204844   7 bin/io-usb         
+  204844   9 bin/io-usb         
+  204844  10 bin/io-usb         
+  204844  11 bin/io-usb         
+  221226   1 bin/pps            
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 1 
+  221226   2 bin/pps            
+  221229   1 usbPowerMonitorOM5 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 1 
+  221229   2 usbPowerMonitorOM5 
+  221229   3 usbPowerMonitorOM5 
+  221229   4 usbPowerMonitorOM5 
+  221229   5 usbPowerMonitorOM5 
+  221229   6 usbPowerMonitorOM5 
+  221230   1 pt/sys/bin/EnvStub 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  221230   2 pt/sys/bin/EnvStub 
+  221230   3 pt/sys/bin/EnvStub 
+  221230   4 pt/sys/bin/EnvStub 
+  221230   5 pt/sys/bin/EnvStub 
+  221230   6 pt/sys/bin/EnvStub 
+  221230   7 pt/sys/bin/EnvStub 
+  221231   1 bin/devb-ram       
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000006a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 0 
+		00000007: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  221231   2 bin/devb-ram       
+  221231   3 bin/devb-ram       
+  221231   4 bin/devb-ram       
+  221231   5 bin/devb-ram       
+  221231   6 bin/devb-ram       
+  221232   1 n/zipped/HmiMain3D 
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000005: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000006: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000007: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000e: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000f: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000010: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  221232   2 n/zipped/HmiMain3D 
+  221232   3 n/zipped/HmiMain3D 
+  221232   4 n/zipped/HmiMain3D 
+  221232   5 n/zipped/HmiMain3D 
+  221232   6 n/zipped/HmiMain3D 
+  221232   7 n/zipped/HmiMain3D 
+  221232   8 n/zipped/HmiMain3D 
+  221232   9 n/zipped/HmiMain3D 
+  221232  10 n/zipped/HmiMain3D 
+  221232  11 n/zipped/HmiMain3D 
+  221232  12 n/zipped/HmiMain3D 
+  221232  13 n/zipped/HmiMain3D 
+  221232  14 n/zipped/HmiMain3D 
+  221232  15 n/zipped/HmiMain3D 
+  221232  16 n/zipped/HmiMain3D 
+  221232  17 n/zipped/HmiMain3D 
+  221232  18 n/zipped/HmiMain3D 
+  221232  19 n/zipped/HmiMain3D 
+  221232  20 n/zipped/HmiMain3D 
+  221232  21 n/zipped/HmiMain3D 
+  221232  22 n/zipped/HmiMain3D 
+  221232  23 n/zipped/HmiMain3D 
+  221232  24 n/zipped/HmiMain3D 
+  221232  25 n/zipped/HmiMain3D 
+  221232  26 n/zipped/HmiMain3D 
+  221232  27 n/zipped/HmiMain3D 
+  221232  28 n/zipped/HmiMain3D 
+  221232  29 n/zipped/HmiMain3D 
+  221232  30 n/zipped/HmiMain3D 
+  221232  31 n/zipped/HmiMain3D 
+  221232  32 n/zipped/HmiMain3D 
+  221232  33 n/zipped/HmiMain3D 
+  221232  34 n/zipped/HmiMain3D 
+  221233   1 n/dev-ioamp-router 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 20 ReplyQ 0 
+		00000008: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000014: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000017: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000001b: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000001e: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000030: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  221233   2 n/dev-ioamp-router 
+  221233   3 n/dev-ioamp-router 
+  221233   4 n/dev-ioamp-router 
+  221233   5 n/dev-ioamp-router 
+  221233   6 n/dev-ioamp-router 
+  221233   7 n/dev-ioamp-router 
+  221233   8 n/dev-ioamp-router 
+  221233   9 n/dev-ioamp-router 
+  221233  10 n/dev-ioamp-router 
+  221233  11 n/dev-ioamp-router 
+  221233  12 n/dev-ioamp-router 
+  221233  13 n/dev-ioamp-router 
+  221233  14 n/dev-ioamp-router 
+  221233  15 n/dev-ioamp-router 
+  221233  16 n/dev-ioamp-router 
+  221233  17 n/dev-ioamp-router 
+  221233  18 n/dev-ioamp-router 
+  221233  19 n/dev-ioamp-router 
+  221233  20 n/dev-ioamp-router 
+  221233  21 n/dev-ioamp-router 
+  221233  22 n/dev-ioamp-router 
+  221233  23 n/dev-ioamp-router 
+  221233  24 n/dev-ioamp-router 
+  221233  25 n/dev-ioamp-router 
+  221233  26 n/dev-ioamp-router 
+  221233  27 n/dev-ioamp-router 
+  221233  28 n/dev-ioamp-router 
+  221233  29 n/dev-ioamp-router 
+  221234   1 opt/sys/bin/stage2 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  221234   2 opt/sys/bin/stage2 
+  221234   3 opt/sys/bin/stage2 
+  221234   4 opt/sys/bin/stage2 
+  221234   5 opt/sys/bin/stage2 
+  221234   6 opt/sys/bin/stage2 
+  221234   7 opt/sys/bin/stage2 
+  221234   8 opt/sys/bin/stage2 
+  221234   9 opt/sys/bin/stage2 
+  221234  10 opt/sys/bin/stage2 
+  221234  11 opt/sys/bin/stage2 
+  221234  12 opt/sys/bin/stage2 
+  221234  13 opt/sys/bin/stage2 
+  221234  14 opt/sys/bin/stage2 
+  221234  15 opt/sys/bin/stage2 
+  221234  16 opt/sys/bin/stage2 
+  225331   1 DiagnosticsSlaveHU 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225331   2 DiagnosticsSlaveHU 
+  225331   3 DiagnosticsSlaveHU 
+  225331   4 DiagnosticsSlaveHU 
+  225331   5 DiagnosticsSlaveHU 
+  225331   6 DiagnosticsSlaveHU 
+  225331   7 DiagnosticsSlaveHU 
+  225331   8 DiagnosticsSlaveHU 
+  225332   1 bin/sysetpageproxy 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225332   2 bin/sysetpageproxy 
+  225332   3 bin/sysetpageproxy 
+  225332   4 bin/sysetpageproxy 
+  225332   5 bin/sysetpageproxy 
+  225332   6 bin/sysetpageproxy 
+  225332   7 bin/sysetpageproxy 
+  225332   8 bin/sysetpageproxy 
+  225333   1 ./NavigationOnOff  
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225333   2 ./NavigationOnOff  
+  225333   3 ./NavigationOnOff  
+  225333   4 ./NavigationOnOff  
+  225333   5 ./NavigationOnOff  
+  225333   6 ./NavigationOnOff  
+  225333   7 ./NavigationOnOff  
+  225333   8 ./NavigationOnOff  
+  225333   9 ./NavigationOnOff  
+  225333  10 ./NavigationOnOff  
+  225333  11 ./NavigationOnOff  
+  225334   1 avNBTEvoController 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000005d: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000065: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225334   2 avNBTEvoController 
+  225334   3 avNBTEvoController 
+  225334   4 avNBTEvoController 
+  225334   5 avNBTEvoController 
+  225334   6 avNBTEvoController 
+  225334   7 avNBTEvoController 
+  225334   8 avNBTEvoController 
+  225334   9 avNBTEvoController 
+  225334  10 avNBTEvoController 
+  225334  11 avNBTEvoController 
+  225334  12 avNBTEvoController 
+  225334  13 avNBTEvoController 
+  225334  14 avNBTEvoController 
+  225334  15 avNBTEvoController 
+  225335   1 /bin/RingWPProcess 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225335   2 /bin/RingWPProcess 
+  225335   3 /bin/RingWPProcess 
+  225335   4 /bin/RingWPProcess 
+  225335   5 /bin/RingWPProcess 
+  225335   6 /bin/RingWPProcess 
+  225335   7 /bin/RingWPProcess 
+  225335   8 /bin/RingWPProcess 
+  225336   1 in/NBTMediaMainApp 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000049: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000b0: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000b3: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000b6: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000b9: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000bc: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000c5: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000c8: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000d0: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		000000d2: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000012b: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000012e: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000019b: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225336   2 in/NBTMediaMainApp 
+  225336   3 in/NBTMediaMainApp 
+  225336   4 in/NBTMediaMainApp 
+  225336   5 in/NBTMediaMainApp 
+  225336   6 in/NBTMediaMainApp 
+  225336   7 in/NBTMediaMainApp 
+  225336   8 in/NBTMediaMainApp 
+  225336   9 in/NBTMediaMainApp 
+  225336  10 in/NBTMediaMainApp 
+  225336  11 in/NBTMediaMainApp 
+  225336  12 in/NBTMediaMainApp 
+  225336  13 in/NBTMediaMainApp 
+  225336  14 in/NBTMediaMainApp 
+  225336  15 in/NBTMediaMainApp 
+  225336  16 in/NBTMediaMainApp 
+  225336  17 in/NBTMediaMainApp 
+  225336  18 in/NBTMediaMainApp 
+  225336  19 in/NBTMediaMainApp 
+  225336  20 in/NBTMediaMainApp 
+  225336  21 in/NBTMediaMainApp 
+  225336  22 in/NBTMediaMainApp 
+  225336  23 in/NBTMediaMainApp 
+  225336  24 in/NBTMediaMainApp 
+  225336  25 in/NBTMediaMainApp 
+  225336  26 in/NBTMediaMainApp 
+  225336  27 in/NBTMediaMainApp 
+  225336  28 in/NBTMediaMainApp 
+  225336  29 in/NBTMediaMainApp 
+  225336  30 in/NBTMediaMainApp 
+  225336  31 in/NBTMediaMainApp 
+  225336  32 in/NBTMediaMainApp 
+  225336  33 in/NBTMediaMainApp 
+  225336  34 in/NBTMediaMainApp 
+  225336  35 in/NBTMediaMainApp 
+  225336  36 in/NBTMediaMainApp 
+  225336  37 in/NBTMediaMainApp 
+  225336  38 in/NBTMediaMainApp 
+  225336  39 in/NBTMediaMainApp 
+  225336  40 in/NBTMediaMainApp 
+  225336  41 in/NBTMediaMainApp 
+  225336  42 in/NBTMediaMainApp 
+  225336  43 in/NBTMediaMainApp 
+  225336  44 in/NBTMediaMainApp 
+  225336  45 in/NBTMediaMainApp 
+  225336  46 in/NBTMediaMainApp 
+  225336  47 in/NBTMediaMainApp 
+  225336  48 in/NBTMediaMainApp 
+  225336  49 in/NBTMediaMainApp 
+  225336  50 in/NBTMediaMainApp 
+  225336  51 in/NBTMediaMainApp 
+  225336  52 in/NBTMediaMainApp 
+  225336  53 in/NBTMediaMainApp 
+  225336  54 in/NBTMediaMainApp 
+  225336  55 in/NBTMediaMainApp 
+  225336  56 in/NBTMediaMainApp 
+  225336  57 in/NBTMediaMainApp 
+  225336  58 in/NBTMediaMainApp 
+  225336  59 in/NBTMediaMainApp 
+  225336  60 in/NBTMediaMainApp 
+  225336  61 in/NBTMediaMainApp 
+  225336  62 in/NBTMediaMainApp 
+  225336  63 in/NBTMediaMainApp 
+  225336  64 in/NBTMediaMainApp 
+  225336  65 in/NBTMediaMainApp 
+  225336  66 in/NBTMediaMainApp 
+  225336  67 in/NBTMediaMainApp 
+  225336  68 in/NBTMediaMainApp 
+  225336  69 in/NBTMediaMainApp 
+  225336  70 in/NBTMediaMainApp 
+  225336  71 in/NBTMediaMainApp 
+  225336  72 in/NBTMediaMainApp 
+  225336  73 in/NBTMediaMainApp 
+  225337   1 /bin/LinkManagerHU 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  225337   2 /bin/LinkManagerHU 
+  225337   3 /bin/LinkManagerHU 
+  225337   4 /bin/LinkManagerHU 
+  225337   5 /bin/LinkManagerHU 
+  225337   6 /bin/LinkManagerHU 
+  225337   7 /bin/LinkManagerHU 
+  229435   1 /bin/TunerAppSdars 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  229435   2 /bin/TunerAppSdars 
+  229435   3 /bin/TunerAppSdars 
+  229435   4 /bin/TunerAppSdars 
+  229435   5 /bin/TunerAppSdars 
+  229435   6 /bin/TunerAppSdars 
+  229435   7 /bin/TunerAppSdars 
+  229435   8 /bin/TunerAppSdars 
+  229435   9 /bin/TunerAppSdars 
+  229435  10 /bin/TunerAppSdars 
+  229435  11 /bin/TunerAppSdars 
+  229435  12 /bin/TunerAppSdars 
+  229435  13 /bin/TunerAppSdars 
+  229435  14 /bin/TunerAppSdars 
+  229435  15 /bin/TunerAppSdars 
+  229435  16 /bin/TunerAppSdars 
+  229435  17 /bin/TunerAppSdars 
+  229435  18 /bin/TunerAppSdars 
+  229435  19 /bin/TunerAppSdars 
+  229435  20 /bin/TunerAppSdars 
+  229435  21 /bin/TunerAppSdars 
+  229436   1 ch/bin/enluservice 
+  229437   1 pt/speech/bin/natp 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 5 
+  229437   2 pt/speech/bin/natp 
+  229437   3 pt/speech/bin/natp 
+  229437   4 pt/speech/bin/natp 
+  229437   5 pt/speech/bin/natp 
+  229437   6 pt/speech/bin/natp 
+  229437   7 pt/speech/bin/natp 
+  229437   8 pt/speech/bin/natp 
+  229437   9 pt/speech/bin/natp 
+  229437  10 pt/speech/bin/natp 
+  229437  11 pt/speech/bin/natp 
+  229437  12 pt/speech/bin/natp 
+  229437  13 pt/speech/bin/natp 
+  229437  14 pt/speech/bin/natp 
+  229437  15 pt/speech/bin/natp 
+  229437  16 pt/speech/bin/natp 
+  229437  17 pt/speech/bin/natp 
+  229437  18 pt/speech/bin/natp 
+  229437  19 pt/speech/bin/natp 
+  229437  20 pt/speech/bin/natp 
+  229437  21 pt/speech/bin/natp 
+  229437  22 pt/speech/bin/natp 
+  229437  23 pt/speech/bin/natp 
+  229437  24 pt/speech/bin/natp 
+  229437  25 pt/speech/bin/natp 
+  229437  26 pt/speech/bin/natp 
+  229437  27 pt/speech/bin/natp 
+  229437  28 pt/speech/bin/natp 
+  229437  29 pt/speech/bin/natp 
+  229437  30 pt/speech/bin/natp 
+  229437  31 pt/speech/bin/natp 
+  229437  32 pt/speech/bin/natp 
+  229437  33 pt/speech/bin/natp 
+  229437  34 pt/speech/bin/natp 
+  229437  35 pt/speech/bin/natp 
+  229437  36 pt/speech/bin/natp 
+  229437  37 pt/speech/bin/natp 
+  229437  38 pt/speech/bin/natp 
+  229437  39 pt/speech/bin/natp 
+  229437  40 pt/speech/bin/natp 
+  229437  41 pt/speech/bin/natp 
+  229437  42 pt/speech/bin/natp 
+  229437  43 pt/speech/bin/natp 
+  229437  44 pt/speech/bin/natp 
+  229437  45 pt/speech/bin/natp 
+  229437  46 pt/speech/bin/natp 
+  229437  47 pt/speech/bin/natp 
+  229437  48 pt/speech/bin/natp 
+  229437  49 pt/speech/bin/natp 
+  229437  50 pt/speech/bin/natp 
+  229437  51 pt/speech/bin/natp 
+  229437  52 pt/speech/bin/natp 
+  229437  53 pt/speech/bin/natp 
+  237630   1 peech/bin/vrs_natp 
+  237630   2 peech/bin/vrs_natp 
+  237630   3 peech/bin/vrs_natp 
+  237630   4 peech/bin/vrs_natp 
+  237630   5 peech/bin/vrs_natp 
+  237630   6 peech/bin/vrs_natp 
+  237630   7 peech/bin/vrs_natp 
+  237630   8 peech/bin/vrs_natp 
+  237630   9 peech/bin/vrs_natp 
+  237630  10 peech/bin/vrs_natp 
+  237630  11 peech/bin/vrs_natp 
+  237630  12 peech/bin/vrs_natp 
+  237630  13 peech/bin/vrs_natp 
+  237630  14 peech/bin/vrs_natp 
+  237630  15 peech/bin/vrs_natp 
+  237630  16 peech/bin/vrs_natp 
+  237630  17 peech/bin/vrs_natp 
+  237630  18 peech/bin/vrs_natp 
+  237630  19 peech/bin/vrs_natp 
+  237630  20 peech/bin/vrs_natp 
+  237630  21 peech/bin/vrs_natp 
+  237630  22 peech/bin/vrs_natp 
+  237631   1 bin/dmsserver-kisu 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  237631   2 bin/dmsserver-kisu 
+  237631   3 bin/dmsserver-kisu 
+  237631   4 bin/dmsserver-kisu 
+  237631   5 bin/dmsserver-kisu 
+  237631   6 bin/dmsserver-kisu 
+  237631   7 bin/dmsserver-kisu 
+  237631   8 bin/dmsserver-kisu 
+  237632   1 bin/touchComDevice 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  237632   2 bin/touchComDevice 
+  237632   3 bin/touchComDevice 
+  237632   4 bin/touchComDevice 
+  237632   5 bin/touchComDevice 
+  237632   6 bin/touchComDevice 
+  237632   7 bin/touchComDevice 
+  237632   8 bin/touchComDevice 
+  237634   1 bin/mcd            
+		00000002: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  237634   2 bin/mcd            
+  237634   3 bin/mcd            
+  237634   4 bin/mcd            
+  237634   5 bin/mcd            
+  237634   6 bin/mcd            
+  237634   7 bin/mcd            
+  237634   8 bin/mcd            
+  237634   9 bin/mcd            
+  237634  10 bin/mcd            
+  237634  11 bin/mcd            
+  237634  12 bin/mcd            
+  237634  13 bin/mcd            
+  237634  14 bin/mcd            
+  237634  15 bin/mcd            
+  237634  16 bin/mcd            
+  237634  17 bin/mcd            
+  237634  18 bin/mcd            
+  237634  19 bin/mcd            
+  237634  20 bin/mcd            
+  237635   1 bin/rpcbind        
+  237637   1 diaEjectRetractApp 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  237637   2 diaEjectRetractApp 
+  237637   3 diaEjectRetractApp 
+  237637   4 diaEjectRetractApp 
+  237637   5 diaEjectRetractApp 
+  237637   6 diaEjectRetractApp 
+  237637   7 diaEjectRetractApp 
+  237638   2 bin/gracenote_srvr 
+  237639   1 mm/bin/io-fs-media 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  262202   1 opt/mm/bin/mdsctrl 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  262202   2 opt/mm/bin/mdsctrl 
+  262202   3 opt/mm/bin/mdsctrl 
+  262202   4 opt/mm/bin/mdsctrl 
+  262202   5 opt/mm/bin/mdsctrl 
+  262202   6 opt/mm/bin/mdsctrl 
+  262202   7 opt/mm/bin/mdsctrl 
+  262202   8 opt/mm/bin/mdsctrl 
+  274497   1 bin/dhcp.client    
+  278571   1 ech/bin/handsfreed 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000002: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000003: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  278571   2 ech/bin/handsfreed 
+  278571   3 ech/bin/handsfreed 
+  278571   4 ech/bin/handsfreed 
+  278596   1 bin/navigationttsd 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000002: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000003: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  278596   2 bin/navigationttsd 
+  278596   3 bin/navigationttsd 
+  278596   4 bin/navigationttsd 
+  278596   5 bin/navigationttsd 
+  278596   6 bin/navigationttsd 
+  278596   7 bin/navigationttsd 
+  278600   1 n/vdev-medialaunch 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  278600   2 n/vdev-medialaunch 
+  278600   3 n/vdev-medialaunch 
+  278600   4 n/vdev-medialaunch 
+  278600   5 n/vdev-medialaunch 
+  278601   1 nn/bin/ConnStarter 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  278601   2 nn/bin/ConnStarter 
+  278601   3 nn/bin/ConnStarter 
+  278601   4 nn/bin/ConnStarter 
+  278601   5 nn/bin/ConnStarter 
+  278601   6 nn/bin/ConnStarter 
+  278601   7 nn/bin/ConnStarter 
+  290893   1 bin/devc-pty       
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  290894   1 opt/sys/bin/srm    
+		00000002: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 2 ReplyQ 0 
+  290894   2 opt/sys/bin/srm    
+  290894   3 opt/sys/bin/srm    
+  290896   1 bin/inetd          
+  290897   1 /mm/bin/mmlauncher 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  290897   2 /mm/bin/mmlauncher 
+  290897   3 /mm/bin/mmlauncher 
+  290897   4 /mm/bin/mmlauncher 
+  290897   5 /mm/bin/mmlauncher 
+  290897   6 /mm/bin/mmlauncher 
+  290897   7 /mm/bin/mmlauncher 
+  290898   1 in/io-media-cinemo 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 10 ReplyQ 0 
+  290898   2 in/io-media-cinemo 
+  290898   3 in/io-media-cinemo 
+  290898   4 in/io-media-cinemo 
+  290898   5 in/io-media-cinemo 
+  290898   6 in/io-media-cinemo 
+  290898   7 in/io-media-cinemo 
+  290898   8 in/io-media-cinemo 
+  290898   9 in/io-media-cinemo 
+  290898  10 in/io-media-cinemo 
+  290898  11 in/io-media-cinemo 
+  290898  12 in/io-media-cinemo 
+  290898  20 in/io-media-cinemo 
+  290898  21 in/io-media-cinemo 
+  290900   1 n/io-media-generic 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 2 ReplyQ 0 
+  290900   2 n/io-media-generic 
+  290900   3 n/io-media-generic 
+  299087   1 n/bin/Connectivity 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000009b: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 2 ReplyQ 0 
+  299087   2 n/bin/Connectivity 
+  299087   3 n/bin/Connectivity 
+  299087   4 n/bin/Connectivity 
+  299087   5 n/bin/Connectivity 
+  299087   6 n/bin/Connectivity 
+  299087   7 n/bin/Connectivity 
+  299087   8 n/bin/Connectivity 
+  299087   9 n/bin/Connectivity 
+  299087  10 n/bin/Connectivity 
+  299087  11 n/bin/Connectivity 
+  299087  12 n/bin/Connectivity 
+  299087  13 n/bin/Connectivity 
+  299087  14 n/bin/Connectivity 
+  299087  15 n/bin/Connectivity 
+  299087  16 n/bin/Connectivity 
+  299087  17 n/bin/Connectivity 
+  299087  18 n/bin/Connectivity 
+  299087  19 n/bin/Connectivity 
+  299087  20 n/bin/Connectivity 
+  299087  21 n/bin/Connectivity 
+  299087  22 n/bin/Connectivity 
+  299087  23 n/bin/Connectivity 
+  299087  24 n/bin/Connectivity 
+  299087  25 n/bin/Connectivity 
+  299091   1 bin/qdb            
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 10 ReplyQ 0 
+  299091   2 bin/qdb            
+  299091   3 bin/qdb            
+  299091   4 bin/qdb            
+  299091   5 bin/qdb            
+  299091   8 bin/qdb            
+  299091  11 bin/qdb            
+  299091  14 bin/qdb            
+  299091  15 bin/qdb            
+  299091  16 bin/qdb            
+  299091  18 bin/qdb            
+  299093   1 opt/conn/bin/scp   
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000003: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000c: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000e: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000019: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000037: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 6 ReplyQ 0 
+		00000041: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000042: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000043: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000045: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000047: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000048: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000052: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 2 
+  299093   2 opt/conn/bin/scp   
+  299093   3 opt/conn/bin/scp   
+  299093   4 opt/conn/bin/scp   
+  299093   5 opt/conn/bin/scp   
+  299093   6 opt/conn/bin/scp   
+  299093   7 opt/conn/bin/scp   
+  299093   8 opt/conn/bin/scp   
+  299093   9 opt/conn/bin/scp   
+  299093  10 opt/conn/bin/scp   
+  299093  11 opt/conn/bin/scp   
+  299093  12 opt/conn/bin/scp   
+  299093  13 opt/conn/bin/scp   
+  299093  14 opt/conn/bin/scp   
+  299093  15 opt/conn/bin/scp   
+  299093  16 opt/conn/bin/scp   
+  299093  17 opt/conn/bin/scp   
+  299093  18 opt/conn/bin/scp   
+  299093  19 opt/conn/bin/scp   
+  299093  20 opt/conn/bin/scp   
+  299093  21 opt/conn/bin/scp   
+  299093  22 opt/conn/bin/scp   
+  299093  23 opt/conn/bin/scp   
+  299093  24 opt/conn/bin/scp   
+  299093  25 opt/conn/bin/scp   
+  299093  26 opt/conn/bin/scp   
+  299093  27 opt/conn/bin/scp   
+  299093  28 opt/conn/bin/scp   
+  299093  29 opt/conn/bin/scp   
+  299093  30 opt/conn/bin/scp   
+  299093  31 opt/conn/bin/scp   
+  299093  32 opt/conn/bin/scp   
+  299093  33 opt/conn/bin/scp   
+  299093  34 opt/conn/bin/scp   
+  299093  35 opt/conn/bin/scp   
+  299093  36 opt/conn/bin/scp   
+  299093  37 opt/conn/bin/scp   
+  299093  38 opt/conn/bin/scp   
+  299093  39 opt/conn/bin/scp   
+  299093  40 opt/conn/bin/scp   
+  299093  41 opt/conn/bin/scp   
+  299093  42 opt/conn/bin/scp   
+  299093  43 opt/conn/bin/scp   
+  299093  44 opt/conn/bin/scp   
+  299093  45 opt/conn/bin/scp   
+  299093  46 opt/conn/bin/scp   
+  299093  47 opt/conn/bin/scp   
+  299093  48 opt/conn/bin/scp   
+  299093  49 opt/conn/bin/scp   
+  299093  50 opt/conn/bin/scp   
+  299093  51 opt/conn/bin/scp   
+  299093  52 opt/conn/bin/scp   
+  299093  53 opt/conn/bin/scp   
+  299093  54 opt/conn/bin/scp   
+  299093  55 opt/conn/bin/scp   
+  299093  56 opt/conn/bin/scp   
+  299093  57 opt/conn/bin/scp   
+  299093  58 opt/conn/bin/scp   
+  299093  59 opt/conn/bin/scp   
+  299093  60 opt/conn/bin/scp   
+  299093  61 opt/conn/bin/scp   
+  299093  62 opt/conn/bin/scp   
+  299093  63 opt/conn/bin/scp   
+  299093  64 opt/conn/bin/scp   
+  299093  65 opt/conn/bin/scp   
+  299093  66 opt/conn/bin/scp   
+  299093  67 opt/conn/bin/scp   
+  299093  68 opt/conn/bin/scp   
+  299093  69 opt/conn/bin/scp   
+  299093  70 opt/conn/bin/scp   
+  299093  71 opt/conn/bin/scp   
+  299093  72 opt/conn/bin/scp   
+  299093  73 opt/conn/bin/scp   
+  299093  74 opt/conn/bin/scp   
+  299093  75 opt/conn/bin/scp   
+  299093  76 opt/conn/bin/scp   
+  299093  77 opt/conn/bin/scp   
+  299093  78 opt/conn/bin/scp   
+  299093  79 opt/conn/bin/scp   
+  299093  80 opt/conn/bin/scp   
+  299093  81 opt/conn/bin/scp   
+  299093  82 opt/conn/bin/scp   
+  299093  83 opt/conn/bin/scp   
+  299093  84 opt/conn/bin/scp   
+  299093  85 opt/conn/bin/scp   
+  299093  86 opt/conn/bin/scp   
+  299093  87 opt/conn/bin/scp   
+  299093  88 opt/conn/bin/scp   
+  299093  89 opt/conn/bin/scp   
+  299093  90 opt/conn/bin/scp   
+  299093  91 opt/conn/bin/scp   
+  299093  92 opt/conn/bin/scp   
+  299094   1 bin/dmsserver_addr 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  299094   2 bin/dmsserver_addr 
+  299094   3 bin/dmsserver_addr 
+  299094   4 bin/dmsserver_addr 
+  299094   5 bin/dmsserver_addr 
+  299094   6 bin/dmsserver_addr 
+  299094   7 bin/dmsserver_addr 
+  299094   8 bin/dmsserver_addr 
+  299095   1 ./NavigationBasic  
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  299095   2 ./NavigationBasic  
+  299095   3 ./NavigationBasic  
+  299095   4 ./NavigationBasic  
+  299095   5 ./NavigationBasic  
+  299095   6 ./NavigationBasic  
+  299095   7 ./NavigationBasic  
+  299095   8 ./NavigationBasic  
+  299095   9 ./NavigationBasic  
+  299095  10 ./NavigationBasic  
+  299095  11 ./NavigationBasic  
+  299095  12 ./NavigationBasic  
+  299095  13 ./NavigationBasic  
+  299095  14 ./NavigationBasic  
+  299095  15 ./NavigationBasic  
+  299095  16 ./NavigationBasic  
+  299095  17 ./NavigationBasic  
+  299095  18 ./NavigationBasic  
+  299095  19 ./NavigationBasic  
+  299095  20 ./NavigationBasic  
+  299095  21 ./NavigationBasic  
+  299095  22 ./NavigationBasic  
+  299095  23 ./NavigationBasic  
+  299095  24 ./NavigationBasic  
+  299095  25 ./NavigationBasic  
+  299095  26 ./NavigationBasic  
+  299095  27 ./NavigationBasic  
+  299095  28 ./NavigationBasic  
+  299095  29 ./NavigationBasic  
+  299095  30 ./NavigationBasic  
+  299095  31 ./NavigationBasic  
+  299095  32 ./NavigationBasic  
+  299095  33 ./NavigationBasic  
+  299095  34 ./NavigationBasic  
+  299095  35 ./NavigationBasic  
+  299095  36 ./NavigationBasic  
+  299095  37 ./NavigationBasic  
+  299095  38 ./NavigationBasic  
+  299095  39 ./NavigationBasic  
+  299095  40 ./NavigationBasic  
+  299095  41 ./NavigationBasic  
+  299095  42 ./NavigationBasic  
+  299095  43 ./NavigationBasic  
+  299095  44 ./NavigationBasic  
+  299095  45 ./NavigationBasic  
+  299095  46 ./NavigationBasic  
+  299095  47 ./NavigationBasic  
+  299095  48 ./NavigationBasic  
+  299095  49 ./NavigationBasic  
+  299095  50 ./NavigationBasic  
+  299095  51 ./NavigationBasic  
+  299095  52 ./NavigationBasic  
+  299095  53 ./NavigationBasic  
+  299095  54 ./NavigationBasic  
+  299095  55 ./NavigationBasic  
+  299095  56 ./NavigationBasic  
+  299095  57 ./NavigationBasic  
+  299095  58 ./NavigationBasic  
+  299095  59 ./NavigationBasic  
+  299095  60 ./NavigationBasic  
+  299095  61 ./NavigationBasic  
+  299095  62 ./NavigationBasic  
+  299095  63 ./NavigationBasic  
+  299095  64 ./NavigationBasic  
+  299095  65 ./NavigationBasic  
+  299095  66 ./NavigationBasic  
+  299095  67 ./NavigationBasic  
+  299095  68 ./NavigationBasic  
+  299095  69 ./NavigationBasic  
+  299095  70 ./NavigationBasic  
+  299095  71 ./NavigationBasic  
+  299095  72 ./NavigationBasic  
+  299095  73 ./NavigationBasic  
+  299095  74 ./NavigationBasic  
+  299095  75 ./NavigationBasic  
+  299095  76 ./NavigationBasic  
+  299095  77 ./NavigationBasic  
+  299095  78 ./NavigationBasic  
+  299095  79 ./NavigationBasic  
+  299095  80 ./NavigationBasic  
+  299095  81 ./NavigationBasic  
+  299095  82 ./NavigationBasic  
+  344138   1 bin/mme-update     
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  344138   2 bin/mme-update     
+  344140   1 n/dmsserverqdb3623 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  344140   2 n/dmsserverqdb3623 
+  344140   3 n/dmsserverqdb3623 
+  344140   4 n/dmsserverqdb3623 
+  344140   5 n/dmsserverqdb3623 
+  344140   6 n/dmsserverqdb3623 
+  344140   7 n/dmsserverqdb3623 
+  344140   8 n/dmsserverqdb3623 
+  344152   1 /mm/bin/mme-becker 
+		00000001: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 000000aa PulseQ 0 SendQ 0 ReceiveQ 5 ReplyQ 0 
+		00000008: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000012: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000017: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000001c: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000001d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000022: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000027: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000028: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000029: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000002a: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000002b: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000002d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  344152   2 /mm/bin/mme-becker 
+  344152   3 /mm/bin/mme-becker 
+  344152   4 /mm/bin/mme-becker 
+  344152   5 /mm/bin/mme-becker 
+  344152   8 /mm/bin/mme-becker 
+  344152   9 /mm/bin/mme-becker 
+  344152  10 /mm/bin/mme-becker 
+  344152  11 /mm/bin/mme-becker 
+  344152  12 /mm/bin/mme-becker 
+  344152  13 /mm/bin/mme-becker 
+  344152  14 /mm/bin/mme-becker 
+  344152  15 /mm/bin/mme-becker 
+  344152  16 /mm/bin/mme-becker 
+  344152  17 /mm/bin/mme-becker 
+  344152  18 /mm/bin/mme-becker 
+  344152  19 /mm/bin/mme-becker 
+  344152  20 /mm/bin/mme-becker 
+  344152  21 /mm/bin/mme-becker 
+  344152  22 /mm/bin/mme-becker 
+  344152  23 /mm/bin/mme-becker 
+  344152  24 /mm/bin/mme-becker 
+  344152  25 /mm/bin/mme-becker 
+  344152  26 /mm/bin/mme-becker 
+  344152  27 /mm/bin/mme-becker 
+  344152  28 /mm/bin/mme-becker 
+  344152  29 /mm/bin/mme-becker 
+  344154   1 bin/nfsd           
+  348249   1 bin/devb-umass     
+		00000001: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 0000006a PulseQ 0 SendQ 0 ReceiveQ 6 ReplyQ 0 
+		00000007: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348249   2 bin/devb-umass     
+  348249   3 bin/devb-umass     
+  348249   4 bin/devb-umass     
+  348249   5 bin/devb-umass     
+  348249   6 bin/devb-umass     
+  348249   7 bin/devb-umass     
+  348249   8 bin/devb-umass     
+  348249   9 bin/devb-umass     
+  348249  10 bin/devb-umass     
+  348249  11 bin/devb-umass     
+  348251   1 opt/conn/bin/mwud  
+  348252   1 speech/bin/speechd 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000002: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000003: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000014: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000002d: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000002e: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348252   2 speech/bin/speechd 
+  348252   3 speech/bin/speechd 
+  348252   4 speech/bin/speechd 
+  348252   5 speech/bin/speechd 
+  348252   6 speech/bin/speechd 
+  348252   7 speech/bin/speechd 
+  348253   1 bin/VersionManager 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000016: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348253   2 bin/VersionManager 
+  348253   3 bin/VersionManager 
+  348253   4 bin/VersionManager 
+  348253   5 bin/VersionManager 
+  348253   6 bin/VersionManager 
+  348253   7 bin/VersionManager 
+  348253   8 bin/VersionManager 
+  348254   1 t/conn/bin/DnsMasq 
+  348255   1 bin/qconn          
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000002: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348255   2 bin/qconn          
+  348255   3 bin/qconn          
+  348255   4 bin/qconn          
+  348256   1 t/sys/bin/qnxcommd 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348256   2 t/sys/bin/qnxcommd 
+  348257   1 bin/dhcpd          
+  348258   1 n/bin/carplay/acpd 
+		00000001: flags 00000008 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348259   1 arplay/mm-renderer 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348259   2 arplay/mm-renderer 
+  348259   3 arplay/mm-renderer 
+  348259   4 arplay/mm-renderer 
+  348259   5 arplay/mm-renderer 
+  348259   6 arplay/mm-renderer 
+  348259   7 arplay/mm-renderer 
+  348259   8 arplay/mm-renderer 
+  348261   1 /bin/carplay/mdnsd 
+  348262   1 /bin/dmsserver_pim 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000007: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000009: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  348262   2 /bin/dmsserver_pim 
+  348262   3 /bin/dmsserver_pim 
+  348262   4 /bin/dmsserver_pim 
+  348262   5 /bin/dmsserver_pim 
+  348262   6 /bin/dmsserver_pim 
+  348262   7 /bin/dmsserver_pim 
+  348262   8 /bin/dmsserver_pim 
+  352356   1 pt/conn/bin/Online 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000075: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000084: flags 0000000a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  352356   2 pt/conn/bin/Online 
+  352356   3 pt/conn/bin/Online 
+  352356   4 pt/conn/bin/Online 
+  352356   5 pt/conn/bin/Online 
+  352356   6 pt/conn/bin/Online 
+  352356   7 pt/conn/bin/Online 
+  352356   8 pt/conn/bin/Online 
+  352356   9 pt/conn/bin/Online 
+  352356  10 pt/conn/bin/Online 
+  352356  11 pt/conn/bin/Online 
+  352356  12 pt/conn/bin/Online 
+  352356  13 pt/conn/bin/Online 
+  352356  14 pt/conn/bin/Online 
+  352356  15 pt/conn/bin/Online 
+  352356  16 pt/conn/bin/Online 
+  352356  17 pt/conn/bin/Online 
+  352356  18 pt/conn/bin/Online 
+  352356  19 pt/conn/bin/Online 
+  352356  20 pt/conn/bin/Online 
+  352356  21 pt/conn/bin/Online 
+  352356  22 pt/conn/bin/Online 
+  352356  23 pt/conn/bin/Online 
+  352356  24 pt/conn/bin/Online 
+  352356  25 pt/conn/bin/Online 
+  352356  26 pt/conn/bin/Online 
+  352356  27 pt/conn/bin/Online 
+  352356  28 pt/conn/bin/Online 
+  352356  29 pt/conn/bin/Online 
+  352356  30 pt/conn/bin/Online 
+  352356  31 pt/conn/bin/Online 
+  352356  32 pt/conn/bin/Online 
+  352356  33 pt/conn/bin/Online 
+  352356  34 pt/conn/bin/Online 
+  352356  35 pt/conn/bin/Online 
+  352356  36 pt/conn/bin/Online 
+  352356  37 pt/conn/bin/Online 
+  352356  38 pt/conn/bin/Online 
+  352356  39 pt/conn/bin/Online 
+  352356  40 pt/conn/bin/Online 
+  352356  41 pt/conn/bin/Online 
+  352356  42 pt/conn/bin/Online 
+  352356  43 pt/conn/bin/Online 
+  352356  44 pt/conn/bin/Online 
+  352356  45 pt/conn/bin/Online 
+  352356  46 pt/conn/bin/Online 
+  352356  47 pt/conn/bin/Online 
+  352356  48 pt/conn/bin/Online 
+  352356  49 pt/conn/bin/Online 
+  352356  50 pt/conn/bin/Online 
+  352356  51 pt/conn/bin/Online 
+  352356  52 pt/conn/bin/Online 
+  352356  53 pt/conn/bin/Online 
+  352356  54 pt/conn/bin/Online 
+  352356  55 pt/conn/bin/Online 
+  352356  56 pt/conn/bin/Online 
+  352356  57 pt/conn/bin/Online 
+  352356  58 pt/conn/bin/Online 
+  352356  59 pt/conn/bin/Online 
+  352356  60 pt/conn/bin/Online 
+  352356  61 pt/conn/bin/Online 
+  352359   1 /bin/dev-libasound 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 3 ReplyQ 0 
+		00000004: flags 00000000 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  352359   2 /bin/dev-libasound 
+  352359   3 /bin/dev-libasound 
+  352359   4 /bin/dev-libasound 
+  352359   5 /bin/dev-libasound 
+  352359   6 /bin/dev-libasound 
+  352360   1 onn/bin/IPCEServer 
+  352360   2 onn/bin/IPCEServer 
+  352360   3 onn/bin/IPCEServer 
+  352360   4 onn/bin/IPCEServer 
+  352360   5 onn/bin/IPCEServer 
+  352361   1 ./NavigationFully  
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  352361   2 ./NavigationFully  
+  352361   3 ./NavigationFully  
+  352361   4 ./NavigationFully  
+  352361   5 ./NavigationFully  
+  352361   6 ./NavigationFully  
+  352361   7 ./NavigationFully  
+  352361   8 ./NavigationFully  
+  352361   9 ./NavigationFully  
+  352361  10 ./NavigationFully  
+  352361  11 ./NavigationFully  
+  352361  12 ./NavigationFully  
+  352361  13 ./NavigationFully  
+  352361  14 ./NavigationFully  
+  352361  15 ./NavigationFully  
+  352361  16 ./NavigationFully  
+  352361  17 ./NavigationFully  
+  352361  18 ./NavigationFully  
+  352361  19 ./NavigationFully  
+  352361  20 ./NavigationFully  
+  352361  21 ./NavigationFully  
+  352361  22 ./NavigationFully  
+  352361  23 ./NavigationFully  
+  352361  24 ./NavigationFully  
+  352361  25 ./NavigationFully  
+  352361  26 ./NavigationFully  
+  352361  27 ./NavigationFully  
+  352361  28 ./NavigationFully  
+  352361  29 ./NavigationFully  
+  352361  30 ./NavigationFully  
+  352361  31 ./NavigationFully  
+  352361  32 ./NavigationFully  
+  352361  33 ./NavigationFully  
+  352361  34 ./NavigationFully  
+  352361  35 ./NavigationFully  
+  352361  36 ./NavigationFully  
+  352361  37 ./NavigationFully  
+  352361  38 ./NavigationFully  
+  352361  39 ./NavigationFully  
+  352361  40 ./NavigationFully  
+  352361  41 ./NavigationFully  
+  352361  42 ./NavigationFully  
+  352361  43 ./NavigationFully  
+  352361  44 ./NavigationFully  
+  352361  45 ./NavigationFully  
+  368746     (Zombie)           
+  401516   1 /conn/bin/lighttpd 
+  405611   1 bin/dhcpd          
+  487534   1 rer-NBTEVOEXT_Main 
+  487534   2 rer-NBTEVOEXT_Main 
+  487534   3 rer-NBTEVOEXT_Main 
+  487534   4 rer-NBTEVOEXT_Main 
+  487534   5 rer-NBTEVOEXT_Main 
+  487534   6 rer-NBTEVOEXT_Main 
+  524397   1 evCtrlBrowser_Main 
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000004: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000008: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000009: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000a: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000012: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000013: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000014: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  524397   2 evCtrlBrowser_Main 
+  524397   3 evCtrlBrowser_Main 
+  524397   4 evCtrlBrowser_Main 
+  524397   5 evCtrlBrowser_Main 
+  524397   6 evCtrlBrowser_Main 
+  524397   7 evCtrlBrowser_Main 
+  524397   8 evCtrlBrowser_Main 
+  524397   9 evCtrlBrowser_Main 
+  524397  10 evCtrlBrowser_Main 
+  524397  11 evCtrlBrowser_Main 
+  524397  12 evCtrlBrowser_Main 
+  524397  13 evCtrlBrowser_Main 
+  524397  14 evCtrlBrowser_Main 
+  524397  15 evCtrlBrowser_Main 
+  524397  16 evCtrlBrowser_Main 
+  524397  17 evCtrlBrowser_Main 
+  524397  18 evCtrlBrowser_Main 
+  524397  19 evCtrlBrowser_Main 
+  532591   1 bin/sh             
+  573552   1 opt/aa/nbt-aad     
+		00000001: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000002: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000003: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000006: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000b: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		0000000c: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		0000000f: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+		00000014: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 0 ReplyQ 0 
+		00000015: flags 00000002 PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  573552   2 opt/aa/nbt-aad     
+  573552   3 opt/aa/nbt-aad     
+  573552   4 opt/aa/nbt-aad     
+  573552   5 opt/aa/nbt-aad     
+  573552   6 opt/aa/nbt-aad     
+  573552   7 opt/aa/nbt-aad     
+  573552   8 opt/aa/nbt-aad     
+  573552   9 opt/aa/nbt-aad     
+  573552  10 opt/aa/nbt-aad     
+  573552  11 opt/aa/nbt-aad     
+  573552  12 opt/aa/nbt-aad     
+  573552  13 opt/aa/nbt-aad     
+  573552  14 opt/aa/nbt-aad     
+  573552  15 opt/aa/nbt-aad     
+  573552  16 opt/aa/nbt-aad     
+  573552  17 opt/aa/nbt-aad     
+  573552  18 opt/aa/nbt-aad     
+  651379   1 testability_server 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  651379   2 testability_server 
+  659570   1 /dev-omappowermgmt 
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  659578   1 bin/devc-sernuke   
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 1 ReplyQ 0 
+  725109   1 usr/bin/sloginfo   
+  733300   1 bin/inflator       
+		00000001: flags 0000004a PulseQ 0 SendQ 0 ReceiveQ 2 ReplyQ 0 
+  733300   2 bin/inflator       
+ 1298507   1 bin/pidin          

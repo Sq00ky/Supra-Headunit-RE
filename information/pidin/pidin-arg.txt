@@ -1,0 +1,119 @@
+     pid Arguments
+       1 procnto-smp-instr -v -mLr~i -F1500 –S4096,64
+       2 slogger -m -u 110 -s 1024k
+       3 devc-seromap -u1 -e -F -b115200 -c48000000/16 0x48020000^2,106
+       4 devb-sdmmc-omap5evm blk cache=1M,vnode=512,marking=none,noatime,lock,normv,maxio=256,verbose=bf disk maxio=256,name=sda cam quiet,cache,async sdio hc=omap,addr=0x480b4000,irq=118,timing=~hs200,verbose=3
+    8197 starter -A -s -e -g -vvv -p 30 -S libnbt_starter_plugin-omap.so -O verbose=3,transferverbose=3 -c /opt/sys/etc/starter.cfg
+    8198 /bin/pci-omap543x
+    8199 /bin/dev-i2c -djacinto5 -C/etc/i2c.cfg
+    8200 /bin/devb-ahci-hbomap5 ahci ioport=0x4a140000,irq=86,bs=speed_limit=0 blk cache=32M,vnode=256,delwri=2,marking=none,noatime,verbose=bf cam cache,async,timeout=35:35:35:35,verbose=1,retries=3
+    8201 /bin/pipe
+    8202 /boot/bin/dumper -m -w -d/var/dump
+    8203 /bin/io-pkt-v6-hc -S -ptcpip stacksize=16384,mclbytes=4096,enmap=0,pkt_typed_mem=/ram/dma/sysram -ppf-v6
+    8204 /opt/sys/bin/servicebroker -i1000 -t -f/etc/servicebroker.cfg
+    8205 /bin/tiler
+    8206 login
+   12303 /opt/core/bin/OnOffHuOmapApp --hu --preloader_cfg=/opt/sys/etc/preloader-job-hu.cfg --onoff_initstate=_Init --onoff_enable_dyn_aps --onoff_dyn_aps_file --onoff_continue_normal=NormalStartUp --onoff_continue_bolo=BootLoader --onoff_continue_cdinsert=_Init --onoff_enable_last_user_mode --i=dwc0 --diag=DIAGADR62 --dsiwaitforboot=1 --SBWaitTime=500 --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/core/etc --bp=/var/opt/sys --trace-startup-delay=2000 --heartbeat-interval=2 --enAEH1 --mapPowerStateControllerJacinto.DSYSLifecycleControl=PowerStateController.DSYSLifecycleControl
+   12304 /opt/car/bin/EarlyICam2App --dsiwaitforboot=1 --SBWaitTime=50 --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/car/etc --bp=/var/opt/sys --trace-startup-delay=2000 --heartbeat-interval=2
+   12305 /bin/dev-sysregs2 -c /etc/sysregs_asic_d1.cfg
+   12306 /bin/devc-ser8250bs -u3 -c 1/41664 -b9600 0x5e40a000^2,514
+   12308 /bin/syslink -f /bin/ducati-m3.bin
+   16407 screen
+   20502 /bin/io-ipc -vvvvv -c /etc/io-ipc-o5.cfg
+   20506 /bin/dev-navsens -C/etc/gps_G6_V7_ver20.cfg -Gd=/dev/ser3
+   28697 /opt/sys/bin/most --devmode=client --serverRoleName=MOSTSubSystemServer --SIPCProtocol=tcp --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --trace-startup-delay=2000 --heartbeat-interval=2
+   32795 /bin/shmemallocator
+  106520 /bin/ziploader -d -t /ram/dma -l -m /fs/sda0/opt/hmi/ID5/bin/zipped /fs/sda0/opt/mm/bin/zipped
+  122909 /bin/devf-spi -MEM ado=0x5e000000,mod=bs
+  127004 /opt/sys/bin/Persistency --persstate=F --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --trace-startup-delay=2000 --heartbeat-interval=2
+  180255 /bin/autoarpd -i vlan73 -a 239.192.255.251 -p 30490
+  188437 /opt/sys/bin/someip_sddaemon -c /etc/someip/someip.conf
+  196627 /opt/sys/bin/LayerManagerService
+  196638 /opt/sys/bin/dev-ethervideo -v -c /opt/sys/etc/ethervideo.cfg
+  196640 dev-videocapture -v -c /opt/sys/etc/videocapture_hu.cfg
+  200737 /bin/watchdog5-omap -s smon=HBWATCHDOG2 -p v850channel=/dev/ipc/ipc26,v850cycle=8000
+  200738 /opt/core/bin/CSI_NBT --trccachesize=2500 --trcringbuf --buffsize=10 --trace-startup-delay=1000 --qnet_actions=17406 --pollQNET 3000 --deletePers=on --kisuRemoveLast=on --kisuRemoveAll=on --transportMode=debug --fsNAND=on --fsHDD=on --errorIncrease=5 --errorDecrease=4 --threshold=30 --bp=/opt/core/etc/ --bp=/opt/car/etc/ --bp=/var/opt/sys --mapSystemInformation.DSYSVersionInfoClient=SystemInformation_omap.DSYSVersionInfoClient --mapWatchdogHandler.DSYSNBTPathologyVictim=WatchdogHandler_omap.DSYSNBTPathologyVictim --mapWatchdogHandler.DSYSErrorMemoryAppClient=WatchdogHandler_omap.DSYSErrorMemoryAppClient --heartbeat-interval=2 --phogs_threshold=30 --phogs_interval=50 --P_high=200 --saveFilesOnHD
+  200739 /boot/bin/dumper -z1 -w -d /var/dump
+  200740 /bin/random -p -t
+  200741 ./NavigationPositioning --memtrace=0 --onoff-pinfo=off --trccachesize=100 --trcbuffsize=20 --heartbeat-interval=2 --trchbtd-without-varname --trchbtd-use-typeid --bp=/var/opt/nav --tp=Navigation.hbtc --config=navigation.ini --config+=/opt/nav/eceusa/bin/pos_config.ini --onoff=init --onoff-dsilogging=off --onoff-hbtdBuffersize=25120
+  200742 /opt/sys/bin/srv-hddmgr2 -v 2 -z -q 2:1 -l=/var/opt/sys/hddcred.txt
+  200743 /opt/car/bin/NBTCarHU --trccachesize=2500 --trcringbuf --buffsize=10 --hugo_psc --bp=/opt/car/etc --bp=/var/opt/sys --heartbeat-interval=2
+  200744 /opt/core/bin/NbtEvoOmapDiagHUHighApp --dsiwaitforboot=1 --SBWaitTime=500 --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/core/etc --bp=/var/opt/sys --heartbeat-interval=2
+  200745 /opt/tuner/bin/TunerApp --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/tuner/etc --bp=/var/opt/mm --heartbeat-interval=2
+  204844 io-usb -c -vvv -d omap5-xhci ioport=0x4a030000,irq=124,verbose=5 -d hb-ehci-omap3 ioport=0x4a064c00,irq=109,verbose=5,num_itd=256,portd
+  221226 pps -m /pps
+  221229 /bin/usbPowerMonitorOM5 -v -minterval=3 -C/etc/usbpowermonitor.cfg
+  221230 /opt/sys/bin/EnvStub --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --heartbeat-interval=2
+  221231 /bin/devb-ram cam quiet disk name=ramf ram capacity=28672 blk automount=/dev/ramf0t77:/fs/ram5:qnx4:noatime:noexec,cache=0
+  221232 /opt/hmi/bin/zipped/HmiMain3D -c -ro -rw -sp -vp -cp -iba1 -iba2 -h -z
+  221233 /opt/mm/bin/dev-ioamp-router -vvv -c /opt/mm/lib/libioamp-router-config-hu-atm-c1.so
+  221234 /opt/sys/bin/stage2 -l /opt/sys/lib/libmldr.so -t 1000 -OOMM_LOW_MEM=50 -OOMM_OUT_OF_MEM=5 -OOMM_DELTA_VALUE=2 -nosysetsyncmaster --stage2-initstate=FullyOperable --dsiwaitforboot=1 --trccachesize=500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --heartbeat-interval=2
+  225331 /opt/core/bin/EthernetDiagnosticsSlaveHU --trccachesize=500 --bp=/opt/core/etc --bp=/var/opt/sys --heartbeat-interval=2
+  225332 /opt/sys/bin/sysetpageproxy --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --heartbeat-interval=2
+  225333 ./NavigationOnOff --config=Appstarter.ini --tp=Navigation.hbtc --mapPersistency.DSYSPersistency=NaOma.DSYSPersistency --onoff-coredump-enabled=1
+  225334 ./NavNBTEvoController --config+=/opt/nav/eceusa/bin/navigation.ini --config+=/mnt/share/nav/NavCtrl_DB.ini --trccachesize=100 --trcbuffsize=20 --heartbeat-interval=2 --tp=Navigation.hbtc
+  225335 /opt/mm/bin/RingWPProcess --trccachesize=500 --bp=/opt/mm/etc --bp=/var/opt/mm --heartbeat-interval=2
+  225336 /opt/mm/bin/NBTMediaMainApp --trccachesize=2500 --trcringbuf --buffsize=10 --bp=/opt/mm/bin/ --bp=/var/opt/mm --heartbeat-interval=2
+  225337 /opt/core/bin/LinkManagerHU --hu --dsiwaitforboot=1 --SBWaitTime=500 --trccachesize=2500 --trcringbuf --buffsize=10 --flashfs=/fs/sda0 --istep=/fs/sda0/repository/istep --composition=/fs/sda0 --repository=/fs/sda0/repository --bp=/opt/core/etc --bp=/var/opt/sys --heartbeat-interval=2
+  229435 /opt/tuner/bin/TunerAppSdars --mapTunerStarter.DSYSOnOff=SiriusTunerStarter.DSYSOnOff --trccachesize=2500 --bp=/opt/tuner/etc --bp=/var/opt/mm --heartbeat-interval=2
+  229436 /opt/speech/bin/enluservice /opt/speech/data/grammar/cmn_CN/enlu
+  229437 /opt/speech/bin/natp -f /opt/speech/bin/natp.cfg -s natp_config -k HostAgent.Port=2020 VerboseLevel=2
+  237630 /opt/speech/bin/vrs_natp -f /opt/speech/bin/natp_vrs.cfg -s natp_config -k HostAgent.Port=2030 VerboseLevel=2
+  237631 /opt/sys/bin/dmsserver-kisu dmsconfig_kisu --confdir=/opt/car/lib/ --mapDms.DSYSOnOff=kisu.DSYSOnOff --mapDms.DSYSDmsSql=kisu.DSYSDmsSql --mapDms.DSYSDmsAdministration=kisu.DSYSDmsAdministration --trccachesize=500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys
+  237632 /opt/car/bin/touchComDevice --trccachesize=500 --trcringbuf --buffsize=10 --bp=/opt/car/etc --bp=/var/opt/car
+  237634 /bin/mcd -L /opt/mm/etc/mcd.cfg
+  237635 rpcbind -i
+  237637 /opt/mm/bin/NBTMediaEjectRetractApp --trccachesize=1000 --trcringbuf --buffsize=10 --bp=/opt/mm/bin/ --bp=/var/opt/mm --heartbeat-interval=2
+  237638 /opt/mm/bin/gracenote_srvr -c /dev/shmem/gracenote.cfg -v -n
+  237639 /opt/mm/bin/io-fs-media -d tmp,minsize=15M,maxsize=43M,mount=/ramdisk/mm -c mcache=0,pages=0,bundles=0,files=1k
+  262202 /opt/mm/bin/mdsctrl -v --heartbeat-interval=2
+  274497 /bin/dhcp.client -idwc0 -anbH -hDIAGADR62BMWMAC38455419B114
+  278571 /opt/speech/bin/handsfreed
+  278596 /opt/speech/bin/navigationttsd
+  278600 vdev-medialaunch -b -F -z -x port=0,port=1 -L dos,hfs,nt,cd -f /etc/umass-enum_2100mA.cfg -C -H hub_detect,maxhubs=4 -d -vv -O nbtevo,port1=2100,port2=500
+  278601 /opt/conn/bin/ConnStarter --bp=/opt/conn/data --bp=/var/opt/conn
+  290893 /bin/devc-pty
+  290894 /opt/sys/bin/srm -t -c /var/opt/sys -e /fs/usb0
+  290896 /bin/inetd /etc/inetd.conf
+  290897 /opt/mm/bin/mmlauncher -c /opt/mm/etc/mmlauncher_B069.cfg -v --heartbeat-interval=2 --tp=/opt/mm/bin/mmlauncher.hbtc
+  290898 /opt/mm/bin/io-media-cinemo -L /hbsystem/multicore/navi/o -c /opt/mm/etc/io-media-cinemo.cfg -V
+  290900 /opt/mm/bin/io-media-generic -c /opt/mm/etc/io-media-generic.cfg -D
+  299087 /opt/conn/bin/Connectivity --mapMOSTSubSystem.DSYSMOSTServer=MOSTSubSystem.DSYSMOSTServer --bp=/opt/conn/data --bp=/var/opt/conn --heartbeat-interval=2
+  299091 /bin/qdb -o tempstore=/ramdisk/mm -v -c /opt/mm/etc/qdb.cfg -o unblock=0,thread=40 -Rset -X /opt/mm/etc/update/recover_db.sh
+  299093 /opt/conn/bin/scp -f /var/opt/conn/pss_config.cfg -s wicome_config -r /opt/conn/data,/var/opt/conn -k HostAgent.Port=2020 MonitorService.Port=2021 VerboseLevel=5
+  299094 /opt/conn/bin/dmsserver_addr dmsconfig_addr --confdir=/opt/conn/lib/ --mapDms.DSYSOnOff=addrbook.DSYSOnOff --mapDms.DSYSDmsSql=addrbook.DSYSDmsSql --mapDms.DSYSDmsAdministration=addrbook.DSYSDmsAdministration --bp=/opt/conn/data --bp=/var/opt/conn
+  299095 NavigationBasic --memtrace=0 --onoff-pinfo=off --trccachesize=100 --trcbuffsize=20 --heartbeat-interval=2 --trchbtd-without-varname --trchbtd-use-typeid --bp=/var/opt/nav --tp=Navigation.hbtc --config=navigation.ini --config+=/opt/nav/eceusa/bin/pos_config.ini --config+=/var/opt/nav/nav_db.ini --config+=dbSwCategoryMapping.ini --config+=/mnt/share/nav/poi_config.ini --config+=/mnt/share/nav/nav_styles.ini --config+=/mnt/share/nav/rpl_config.ini --config+=/mnt/share/nav/nav_border.ini --mapTTS_ADR.DSCPSpeechTTS=PresentationControllers.DSCPSpeechTTS --onoff-ignore=Speech --onoff-ignore+=LocaleConversion --db-nds-pagecache-size=62914560 --db-nds-intcache-size=62914560
+  344138 /bin/mme-update -M -n 3:5
+  344139 /bin/sleep 60
+  344140 /opt/sys/bin/dmsserverqdb3623 dmsconfig_mme --confdir=/opt/mm/lib/ --mapDms.DSYSOnOff=mme.DSYSOnOff --mapDms.DSYSDmsSql=mme.DSYSDmsSql --mapDms.DSYSDmsAdministration=mme.DSYSDmsAdministration
+  344152 /opt/mm/bin/mme-becker -c /opt/mm/etc/mme.conf -v -S
+  344154 /bin/nfsd
+  348249 devb-umass mem name=/ram/dma cam verbose blk noatime,normv,noexec,cache=2M,auto=none,commit=high,delwri=0,devdir=/dev/umass cdrom name=usbcd0120 disk timeout=4:5:4:4@0:0:0,retries=3@0:0:0,name=usb0120 umass mpoll=2000,ign_remove,vid=0x346d,did=0x3281,busno=0,port=1,devno=2,maxbresets=10,cmd_timeout=2,config=1,iface=0
+  348251 mwud -c /opt/conn/bin/mwu_dev.conf -d /opt/conn/bin/wifidirect_defaults.conf
+  348252 /opt/speech/bin/speechd
+  348253 /opt/sys/bin/VersionManager --trccachesize=500 --trcringbuf --buffsize=10 --bp=/opt/sys/etc --bp=/var/opt/sys --heartbeat-interval=2
+  348254 /opt/conn/bin/DnsMasq -k -8 /dev/console -u root -C /opt/conn/etc/dnsmasq.conf -x /dev/shmem/dnsmasq.pid -h -H /opt/conn/etc/hosts
+  348255 /bin/qconn
+  348256 /opt/sys/bin/qnxcommd
+  348257 dhcpd -f -d -cf /var/opt/conn/dhcpd.wfd0.conf -lf /var/opt/conn/dhcpd.wfd0.leases -pf /tmp/dhcpd.pid.wfd0 wfd0
+  348258 /opt/conn/bin/carplay/acpd
+  348259 /opt/conn/bin/carplay/mm-renderer -vvvvvv -r /pps/services/multimedia/renderer
+  348261 /opt/conn/bin/carplay/mdnsd
+  348262 /opt/conn/bin/dmsserver_pim dmsconfig_mobileoffice --confdir=/opt/conn/lib/ --mapDms.DSYSOnOff=mobileoffice.DSYSOnOff --mapDms.DSYSDmsSql=mobileoffice.DSYSDmsSql --mapDms.DSYSDmsAdministration=mobileoffice.DSYSDmsAdministration
+  352356 /opt/conn/bin/Online --mapMOSTSubSystem.DSYSMOSTServer=MOSTSubSystem.DSYSMOSTServer --bp=/opt/conn/data --bp=/var/opt/conn --heartbeat-interval=2
+  352359 /opt/mm/bin/dev-libasound -x input_stereo_3 -v
+  352360 /opt/conn/bin/IPCEServer -f /opt/conn/etc/ipce_no_logging.cfg
+  352361 NavigationFully --memtrace=0 --onoff-pinfo=off --trccachesize=100 --trcbuffsize=20 --heartbeat-interval=2 --trchbtd-without-varname --trchbtd-use-typeid --bp=/var/opt/nav --tp=Navigation.hbtc --config=navigation.ini --config+=/opt/nav/eceusa/bin/pos_config.ini --config+=/var/opt/nav/nav_db.ini --config+=dbSwCategoryMapping.ini --config+=/mnt/share/nav/poi_config.ini --mapAMFMTunerDSIDevice.DMMTunerTMC=NBTHighRdsTmc.DMMTunerTMC --ti-dmf=true --db-nds-pagecache-size=31457280 --db-nds-intcache-size=31457280
+  368746          
+  401516 /opt/conn/bin/lighttpd -f /opt/conn/etc/lighttpd-nbt.conf -m /opt/conn/lib
+  405611 dhcpd -f -d -cf /var/opt/conn/dhcpd.uap0.conf -lf /var/opt/conn/dhcpd.uap0.leases -pf /tmp/dhcpd.pid.uap0 uap0
+  487534 /opt/conn/bin/BrowserRenderer-NBTEVOEXT_Main --bp=/opt/conn/data --bp=/var/opt/conn
+  524397 /opt/conn/bin/DevCtrlBrowser_Main --bp=/opt/conn/data --bp=/var/opt/conn --mapDSCPBrowser.DSCPBrowser=DSCPBrowser_MAIN.DSCPBrowser --mapDSCPBrowserListener.DSCPBrowserListener=InternalListener_DSCPBrowser_MAIN.DSCPBrowserListener --heartbeat-interval=2
+  532591 /bin/sh
+  573552 /opt/aa/nbt-aad
+  651379 /opt/sys/bin/someip_enhtestability_server -c /etc/someip/someip.conf -i 119
+  659570 /bin/dev-omappowermgmt -p POLICY_MAX -i 5000
+  659578 /bin/devc-sernuke -N -u4 -E -F -b921600 -c48000000/13 0x4806C000^2,105
+  725109 sloginfo -w
+  733300 /bin/inflator /mnt/data/iba.bmw/swe1
+  962679 pidin arg

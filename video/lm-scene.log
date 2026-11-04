@@ -1,0 +1,13 @@
+screen 1 (0x1)
+---------------------------------------
+- resolution:           x=800, y=480
+- hardware layer count: 0
+- layer render order:   
+
+screen 1588624 (0x183d90)
+---------------------------------------
+LayerManagerService returned: resource was not found
+Failed to get properties of screen with ID 1588624 found
+
+LayerManagerService returned: invalid arguments provided
+Failed to get available layers on screen with ID1588624

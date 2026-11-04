@@ -1,0 +1,5 @@
+screen 1 (0x1)
+---------------------------------------
+- resolution:           x=800, y=480
+- hardware layer count: 0
+- layer render order:   

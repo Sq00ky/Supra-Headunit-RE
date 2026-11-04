@@ -1,0 +1,17 @@
+surface 1280 (0x500)
+---------------------------------------
+- created by pid:       290896
+- original size:      x=1280, y=480
+- destination region: x=0, y=0, w=1280, h=480
+- source region:      x=0, y=0, w=0, h=0
+- virtual viewport:   x=0, y=0, w=0, h=0
+- orientation:        0 (up is top)
+- opacity:            1
+- visibility:         0
+- pixel format:       7 (unknown)
+- native surface:     1709320
+- accepts input from: keyboard mouse touch 
+- has keyboard focus: false
+- chromakey:          disabled (r=0, g=0, b=0)
+- counters:           frame=0, draw=0, update=0
+- on layer:           
